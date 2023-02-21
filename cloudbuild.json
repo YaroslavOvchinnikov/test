@@ -12,7 +12,7 @@
         "--region=europe-central2",
         "--source=.",
         "--trigger-http",
-        "--project : MyProject2018"
+        "--project : MyProject2018",
         "--entry-point : main"
      ]
    }
