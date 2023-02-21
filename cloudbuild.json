@@ -7,7 +7,7 @@
        "functions",
        "deploy",
         [
-          test1
+          "test1"
         ]
      ]
    }
