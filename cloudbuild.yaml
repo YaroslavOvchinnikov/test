@@ -1,13 +1,4 @@
-steps:
 - name:'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  args: ['echo', 'building']
-  id: BUILD
-
-- name:'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  args: ['echo', 'testing']
-  id: TEST
-  
- - name:'gcr.io/google.com/cloudsdktool/cloud-sdk'
   args:
   -gcloud
   -functions
