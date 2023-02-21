@@ -13,7 +13,7 @@
       "--source=.",
       "--trigger-http",
       "--runtime=python39",
-      "--project="MyProject2018",
+      "--project=MyProject2018",
       "--entry-point=main"
      ]
    }
