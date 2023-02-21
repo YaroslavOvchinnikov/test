@@ -4,15 +4,10 @@ steps:
   - gcloud
   - functions
   - deploy
-  - test1
+  - "test1"
   - --region=europe-central2
-  - --source : .
+  - --source=.
   - --trigger-http
-  - --runtime : $_FUNCTION_RUNTIME
-  - --project : $_FUNCTION_PROJECT
-  - --entry-point : $_ENTRY_POINT
+  - --project : MyProject2018
+  - --entry-point : main
   id: DEPLOY
-  
-  substitutions:
-    _FUNCTION_PROJECT : MyProject2018
-    _ENTRY_POINT : main
