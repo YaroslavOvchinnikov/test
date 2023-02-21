@@ -5,12 +5,12 @@ steps:
   - functions
   - deploy
   -$_FUNCTION_NAME
-  - --region=europe-central2
+  - --region:europe-central2
   - --source=.
   - --trigger-http
-  - --runtime=$_FUNCTION_RUNTIME
-  - --project=$_FUNCTION_PROJECT
-  - --entry-point=$_ENTRY_POINT
+  - --runtime:$_FUNCTION_RUNTIME
+  - --project:$_FUNCTION_PROJECT
+  - --entry-point:$_ENTRY_POINT
   id: DEPLOY
   
   substitutions:
