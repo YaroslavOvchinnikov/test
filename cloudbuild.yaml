@@ -1,16 +1,9 @@
-
-
-
 steps:
 - name: 'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  args: ['echo', 'building']
-  id: BUILD
-  
-- name:'gcr.io/google.com/cloudsdktool/cloud-sdk'
-  args: 
-  - 'gcloud'
-  - 'functions'
-  - 'deploy'
+  args:
+  - gcloud
+  - functions
+  - deploy
   -$_FUNCTION_NAME
   - --region=$_FUNCTION_REGION
   - --source=.
