@@ -7,7 +7,7 @@
        "functions",
        "deploy",
         [
-          "test1"
+          "main"
         ],
       "--region=europe-central2",
       "--source=.",
